@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DP Student Portal</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <nav>
+      <!--Main Navbar -->
+      <div class="navbar brand-color">
+        <!-- Logo and Name Part -->
+        <a href="./">
+
+            <div class="flex">
+              <!-- DP-Logo -->
+              <div>
+                <img src="./assets/images/DPlogo.jpg" alt="DP-logo" class="logo" />
+              </div>
+              <!-- DP-Name -->
+              <div class="brand-name">
+                <p>डिजिटल पाठशाला</p>
+              </div>
+            </div>
+          </a>
+
+        <!-- Profile icon and Logout part -->
+
+        <div class="user-menu">
+            <div>
+              <a href="./cart.html" style="color: white"></a>
+                <i class="fas fa-shopping-cart"></i> View Cart</a
+              >
+            </div>
+            <div>
+              <a href="./profile.html" style="color: white"
+                ><i class="fas fa-user"></i> Bipin Paudel</a
+              >
+            </div>
+            <div><i class="fas fa-sign-out"></i> Logout</div>
+          </div>
+      </div>
+    
+    </nav>
+
+    <main class="container">
+      <!-- For Home Page -->
+
+      <!-- Course section -->
+
+      <div>
+        <div class="heading-title">
+          <h2>Profile</h2>
+        </div>
+
+        <div class="profile-container">
+          <!-- Phone and Basic Information -->
+          <div class="profile-info">
+            <!-- Image -->
+            <div>
+              <img src="./assets/images/demoperson.jpg" alt="" />
+            </div>
+
+            <!-- Information -->
+
+            <div class="basic-info">
+              <h2>Bipin Paudel</h2>
+              <small>Student</small>
+              <h3>Ratnanagar-9,Chitwan</h3>
+              <h3>Age: 24 years</h3>
+              <h3>Joined on: 2078</h3>
+
+              <div class="social-media-links">
+                <h3>Social Media Links:</h3>
+                <a href="" class="links"><i class="fa-brands fa-github"></i></a>
+                <a href="" class="links"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="" class="links"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="" class="links"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+
+                <a href="" class="links"
+                  ><i class="fa-brands fa-discord"></i
+                ></a>
+
+                <a href="" class="links"
+                  ><i class="fa-brands fa-behance"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course Information -->
+        <div class="course-table">
+          <div class="heading-title">
+            <h2>Purchased Courses Details</h2>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <td>SN</td>
+                <td>Course Name</td>
+                <td>Purchased on</td>
+                <td>Completed on</td>
+                <td>Status</td>
+                <td>Action</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>MERN Stack</td>
+                <td>2079-03-23</td>
+                <td>2079-05-22</td>
+                <td>Completed</td>
+                <td>
+                  <a
+                    style="
+                      background-color: var(--brand-color);
+                      color: white;
+                      font-size: smaller;
+                      margin: 10px !important;
+                      padding: 2px !important;
+                    "
+                    >View Details</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Node Js</td>
+                <td>2079-03-23</td>
+                <td>2079-05-22</td>
+                <td>In Process</td>
+                <td>
+                  <a
+                    style="
+                      background-color: var(--brand-color);
+                      color: white;
+                      font-size: smaller;
+                      margin: 10px !important;
+                      padding: 2px !important;
+                    "
+                    >View Details</a
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>React</td>
+                <td>2079-03-23</td>
+                <td>2079-05-22</td>
+                <td>InProcess</td>
+                <td>
+                  <a
+                    style="
+                      background-color: var(--brand-color);
+                      color: white;
+                      font-size: smaller;
+                      margin: 10px !important;
+                      padding: 2px !important;
+                    "
+                    >View Details</a
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Basic Web Development</td>
+                <td>2079-03-23</td>
+                <td>2079-05-22</td>
+                <td>Completed</td>
+                <td>
+                  <a
+                    style="
+                      background-color: var(--brand-color);
+                      color: white;
+                      font-size: smaller;
+                      margin: 10px !important;
+                      padding: 2px !important;
+                    "
+                    >View Details</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container" >
+           <div>
+            <div class="brand-identity"> <img src="./assets/images/DPlogo.jpg" alt="DP-logo" class="logo" /> <h2>Digital Pathshala</h2></div>
+            <small>
+            Digital Pathshala represents a groundbreaking shift from traditional classrooms to the realm of virtual learning. We harness technology to make quality education accessible to all, irrespective of financial constraints.
+           </small></div>
+           <div>
+            <h2>Our Contacts</h2>
+  
+            <div>
+              <ul style="padding: 10px;list-style: none; font-size: small;display: flex; flex-direction: column; gap: 10px;">
+                <li> <a href="" style="color: #ffffff;"
+                  ><i class="fa fa-phone"></i
+                 > +977 9816366094 </a> </li>
+  
+                 <li> <a href="" style="color: #ffffff;"
+                  ><i class="fa fa-envelope" aria-hidden="true"></i>  digitalpathshalanp@gmail.com </a> </li>
+                
+                  <li> <a href="" style="color: #ffffff;"
+                    ><i class="fa fa-location" aria-hidden="true"></i>  Itahari, Sunsari, Nepal </a> </li>
+              </ul>
+            </div>
+            <div>
+              <ul style="padding: 10px;list-style: none; font-size: small;display: flex; gap: 10px;">
+                <li> <a href="" style="color: #ffffff;"
+                  ><i class="fa-brands fa-facebook"></i
+                 >  </a> </li>
+                 <li> <a href="" style="color: #ffffff;"
+                  ><i class="fa-brands fa-instagram"></i
+                 >  </a> </li>
+                 <li> <a href="" style="color: #ffffff;"
+                  ><i class="fa-brands fa-github"></i
+                 >  </a> </li>
+                 <li> <a href="" style="color: #ffffff;"
+                  ><i class="fa-brands fa-twitter"></i
+                 >  </a> </li>
+              </ul>
+            </div>
+           </div>
+        </div>
+     
+      </footer>
+  </body>
+</html>

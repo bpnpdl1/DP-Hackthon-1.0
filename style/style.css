@@ -1,0 +1,359 @@
+/* Digital Pathshala Css Code */
+
+:root{
+    --brand-color: #4CAF50;
+    
+}
+
+/* Css Class Helper Properies */
+
+.flex{
+    display: flex;
+    gap: 1.1em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-family:"Poppins","San-serif";
+   
+}
+
+body{
+    font-family:"Poppins","San-serif";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    
+}
+
+
+
+
+/* Digital Pathshala Brand Theme */
+
+.brand-color{
+    background-color: var(--brand-color);
+}
+
+.brand-name{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+
+
+
+/* Page Components */
+
+nav{
+    position: relative;
+}
+.navbar{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.01em;
+    box-shadow: inset;
+
+}
+
+.logo{
+    height: 2.5em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-menu{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+}
+
+.sub-navbar{
+position: sticky;
+top: 0;
+ background-color: #c7eec9;
+ padding: 1.8em;
+ color: #4CAF50;
+ font-weight: bolder;
+}
+
+
+
+.sub-navbar>ul{
+    display: flex;
+    gap: 2em;
+
+}
+.sub-navbar>ul>li{
+    list-style: none;
+}
+
+.sub-navbar>ul>li>a{
+    color: #4CAF50;
+}
+
+.sub-navbar>ul>li:hover{
+    list-style: none;
+    color: #ffffff;
+   
+}
+
+.container{
+    padding: 0 5em 0 5em;
+}
+
+
+.footer{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--brand-color);
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-top: 2%;
+    
+}
+
+.heading-title{
+  
+    display: flex;
+    justify-content: center;
+    color: var(--brand-color);
+    margin: 2%;
+}
+
+.trending-course-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shift-arrow{
+    background-color: #4CAF50;
+    color: white;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.shift-arrow:hover{
+    background-color: white;
+    color: #4CAF50;
+    border: #4CAF50 1px solid;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+
+.course-card-container{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+
+.course-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 1px solid #4caf4f8f;
+    height: 300px;
+    width: 200px;
+    border-radius: 5%;
+}
+
+.course-img{
+    object-fit: cover;
+    width: inherit;
+    height: 9em;
+    border-radius: 5% 5% 0 0;
+    
+}
+
+.card-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 0.9em;
+}
+
+.card-buttons>button,.card-buttons>a{
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 0.5em;
+    border: #c2dac3;
+    border-radius: 10%;
+
+}
+
+.card-buttons>button:hover{
+    background-color: #ffffff;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+   
+}
+
+.course-title{
+    text-align: center;
+}
+
+.course-ratings{
+    color: rgb(150, 240, 6);
+    font-size: small;
+    text-align: center;
+}
+
+.course-price{
+    display: flex;
+    justify-content: center;
+}
+
+.course-info{
+    font-size: 0.8em;
+    color: rgb(49, 48, 48);
+    text-align: center;
+}
+
+.course-views{
+    display: flex;
+    justify-content: center;
+    color: #235824;
+    font-size: 0.755em;
+}
+
+.course-views>span{
+    margin: 0em  1em ;
+   
+}
+
+
+/* Progress  Page css */
+
+.progress-container{
+    border: #4CAF50 1px solid ;
+    padding: 0.9%;
+    display: grid;
+}
+
+.progress-card{
+   display: flex;
+   background: #f1f8f1;
+   padding: 1%;
+   margin: 10px;
+  
+}
+.progress-card:hover{
+    scale: 101%;
+   
+ }
+
+.progress-card>div{
+    padding: 2px;
+}
+
+.course_name{
+    font-size: larger;
+}
+
+.course-name{
+    margin-left: 1%;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.profile-info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 1%;
+    width: fit-content;
+    
+    background-color: #bbf5bd;
+}
+
+.basic-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+table{
+    background-color: #bbf5bd;
+}
+
+thead{
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+td{
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+tbody{
+    margin-bottom: 20px;
+}
+
+.course-table{
+    margin-top: 2%;
+    width: 100%;
+}
+
+.course-table>table{
+    width: inherit;
+}
+
+.social-media-links, .links{
+    display: flex;
+
+    gap: 10px;
+    color: #0c380d;
+}
+
+.basic-info{
+    color: #0c380d;
+}
+
+.links{
+    font-size: large;
+}
+
+footer>div{
+    display: flex;
+}
+footer>div>div{
+    width: 50%;
+    text-align: justify;
+    padding-inline-end: 10px;
+}
+
+.brand-identity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
